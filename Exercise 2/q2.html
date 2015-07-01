@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css' />
+    <style type="text/css">
+        
+        body {
+            background-color: rgba(192, 192, 192, 1);
+            text-align: center;
+        }
+
+        #mainContainer {
+            width: 90%;
+            margin: 10px;
+            background-color: white;
+            border: 1px solid black;
+        }
+
+            #mainContainer > header {
+                height: 80px;
+                background-color: silver;
+                background-image: url("images/penguin-top.jpg");
+            }
+
+            #mainContainer footer {
+                text-align: right;
+                height: 80px;
+                background-color: silver;
+                color: black;
+                background-image: url("images/penguin-bottom.jpg");
+                font-family: "Calligraffitti";
+                font-size: 48px;
+                text-shadow: 3px 3px 3px DimGrey;
+            }
+
+        #no1 {
+            width: 30%;
+            height: 400px;
+            float: left;
+            background-color: #69c;
+            border-right: 1px inset grey;
+            text-align: left;
+        }
+
+            #no1 nav ul {
+                list-style-type: none;
+                margin: 3px;
+                padding: 3px;
+                width: 250px;
+            }
+
+            #no1 nav a {
+                display: block;
+                color: white;
+                background-color: blue;
+                width: 14em;
+                padding: 3px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+                #no1 nav a:hover {
+                    background-color: white;
+                    color: blue;
+                }
+
+            #no1 nav li li a {
+                display: block;
+                color: white;
+                background-color: #ccf;
+                width: 9em;
+                padding: 3px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+        #no2 {
+            background-color: #ccf;
+            height: 400px;
+            border: 1px solid grey;
+        }
+
+            #no2 figure {
+                float: right;
+                padding: 3px;
+            }
+
+                #no2 figure img {
+                    height: 200px;
+                    width: 150px;
+                }
+
+
+
+       
+    </style>
+</head>
+<body>
+    <section id="mainContainer">
+        <header></header>
+        <section id="no1">
+            <nav>
+                <ul>
+                    <li><a href="#">Penguins Around the World<img src="images/penguin-menu.jpg" width="200" alt="penguin" /></a>
+                        <ul>
+                            <li><a href="#">Adelie Penguins</a></li>
+                            <li><a href="#">African Penguins</a></li>
+                            <li><a href="#">Chinstrap Penguins</a></li>
+                            <li><a href="#">Emperor Penguin</a></li>
+                            <li><a href="#">Erect Crested Penguins</a></li>
+                            <li><a href="#">Fairy Penguins</a></li>
+                            <li><a href="#">Fjordland Crested Penguins</a></li>
+                            <li><a href="#">Galapagos Penguin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="no2">
+            <h1>Penguins</h1>
+            <figure>
+                <img src="images/penguin.jpg" alt="penguins" />
+                <figcaption><em>Penguins</em></figcaption>
+            </figure>
+            <article>
+                <header>
+                    <h3>General Information</h3>
+                </header>
+                <p>
+                    Penguins are true flightless birds. Some species spend as much as 75% of their lives at sea, 
+  yet they all breed on land or sea-ice attached to land. To withstand the harsh conditions of the 
+  Antarctic, their bodies are insulated by a thick layer of blubber and a dense network of waterproof 
+  plumage. Penguins' bones are solid and heavy, which help them to remain submerged and reduce the energy 
+  needed for pursuit diving. Some species can reach depths of 1000 feet or more and stay submerged for up
+   to 25 minutes, though most prefer shorter, shallower dives.
+                </p>
+            </article>
+            <details>
+                <summary>Read more</summary>
+            </details>
+        </section>
+        <footer>&copy; antartic connection</footer>
+    </section>
+</body>
+</html>

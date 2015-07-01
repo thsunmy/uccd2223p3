@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>css-q1</title>
+    <style type="text/css">
+        ol {
+            list-style-type: upper-roman;
+        }
+
+            ol ol {
+                list-style-type: upper-alpha;
+            }
+
+        li.image {
+            list-style-image: url("images/mouse.jpg");
+            list-style-position: inside;
+        }
+    </style>
+
+</head>
+<body>
+    <ol>
+        <li>blur 
+       <ol>
+           <li>onBlur 
+               <ol>
+                   <li class="image">&lt;a&gt; The link loses the input focus.</li>
+                   <li class="image">&lt;button&gt; The button loses the input control.</li>
+               </ol>
+           </li>
+       </ol>
+        </li>
+        <li>click 
+       <ol>
+           <li>onClick
+               <ol>
+                   <li class="image">&lt;a&gt; The user clicks on the link.</li>
+                   <li class="image">&lt;input&gt;The input element is clicked.</li>
+               </ol>
+           </li>
+       </ol>
+        </li>
+    </ol>
+</body>
+</html>
